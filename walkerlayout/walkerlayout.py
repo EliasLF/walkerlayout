@@ -401,3 +401,5 @@ class Node(Generic[T]):
         left_subtree.change = left_subtree.change + shift / subtrees
         self.x = self.x + shift
         self.modifier = self.modifier + shift
+
+__all__ = ["WalkerLayouting"]
